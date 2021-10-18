@@ -19,10 +19,12 @@ sudo apt full-upgrade -y
 sudo apt install -y samba
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
+sudo apt-get install -y python3-smbus
 sudo apt-get install -y git
 pip3 install azure.iot.device
 pip3 install board
 pip3 install Rpi.GPIO  (may already be there)
+pip3 install piglow
 sudo nano /boot/config.txt
 ```
 change so it includes this at the end;
